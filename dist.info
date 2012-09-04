@@ -1,0 +1,17 @@
+--- This file is part of LuaDist project
+
+name = "iup-examples"
+version = "3.6"
+
+desc = "Examples for IUP - a portable toolkit for building graphical user interfaces."
+author = "Marcelo Gattass, Luiz Henrique de Figueiredo, Carlos Henrique Levy, Antonio Scuri"
+license = "Tecgraf Library License/MIT"
+url = "http://www.tecgraf.puc-rio.br/iup"
+maintainer = "Peter Kapec"
+
+depends = {
+	"iup >= 3.6",
+	"luafilesystem >= 1.0",
+	"luagl >= 1.0",
+--	"luacom >= x.y",
+}
